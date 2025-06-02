@@ -10,11 +10,11 @@
 //   );
 // };
 
-// import { Routes, Route } from "react-router-dom";
-// import Login from "./pages/Login";
-// import Dashboard from "./pages/Dashboard";
-// import Home from "./pages/Home";
-// import About from "./pages/About";
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+//import Home from "./pages/Home";
+import About from "./pages/About";
 
 // function App() {
 //   return (
@@ -42,6 +42,7 @@ function App() {
     </Routes>
   );
 }
+export default App;
 
 
 

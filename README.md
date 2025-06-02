@@ -27,6 +27,7 @@
 
 ## 🛠 Dependencies
 - Vite
+- Tailwind
 
 
 ## CONTRIBUTORS
