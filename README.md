@@ -23,7 +23,7 @@
 
 ## 💻 Tech Stack 
 
-- React
+- React.JS
 
 ## 🛠 Dependencies
 
