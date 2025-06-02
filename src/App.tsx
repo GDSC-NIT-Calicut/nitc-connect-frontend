@@ -1,9 +1,22 @@
-import React from 'react'
+// import React from 'react'
+
+// const App = () => {
+//   return (
+//     <div>App</div>
+//   )
+// }
+
+// export default App
+
+import { BrowserRouter } from 'react-router-dom';
+import AppRoutes from './routes';
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
+};
 
-export default App
+export default App;
