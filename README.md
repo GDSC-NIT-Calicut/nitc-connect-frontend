@@ -34,7 +34,7 @@
 <table>
 	<tr align="center">
 		<td>
-		A Yashwanth
+		A Yaswanth
 		<p align="center">
 			<img src = "https://yt3.googleusercontent.com/ytc/AIdro_mQRyioMUO4VBrlP-jILdsU6_wMf1KSU9syWtUN4hmK1hg=s900-c-k-c0x00ffffff-no-rj" width="150" height="150" alt="Your Name Here (Insert Your Image Link In Src">
 		</p>
