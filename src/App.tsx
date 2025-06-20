@@ -1,22 +1,33 @@
-// import React from 'react'
+
+// import { BrowserRouter } from 'react-router-dom';
+// import AppRoutes from './routes';
 
 // const App = () => {
 //   return (
-//     <div>App</div>
-//   )
-// }
+//     <BrowserRouter>
+//       <AppRoutes />
+//     </BrowserRouter>
+//   );
+// };
 
-// export default App
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import Home from "./pages/Home";
+import About from "./pages/About";
 
-import { BrowserRouter } from 'react-router-dom';
-import AppRoutes from './routes';
-
-const App = () => {
+function App() {
   return (
-    <BrowserRouter>
-      <AppRoutes />
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
   );
-};
+}
 
 export default App;
+
+
+
