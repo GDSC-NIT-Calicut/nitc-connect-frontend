@@ -28,6 +28,9 @@
 ## 🛠 Dependencies
 - Vite
 - Tailwind
+- React
+- TypeScript
+- React Router
 
 
 ## CONTRIBUTORS
