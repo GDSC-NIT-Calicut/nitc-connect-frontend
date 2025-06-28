@@ -44,20 +44,44 @@
 
 // export default Login;
 // src/pages/Login.tsx
+// import { useAuth } from "../hooks/useAuth";
+
+// const Login = () => {
+//   const { login } = useAuth();
+
+//   return (
+//     <div>
+//       <h1>Login Page</h1>
+//       <button onClick={login}>Login with Google</button>
+//     </div>
+//   );
+// };
+
+// export default Login;
 import { useAuth } from "../hooks/useAuth";
 
 const Login = () => {
   const { login } = useAuth();
 
   return (
-    <div>
-      <h1>Login Page</h1>
-      <button onClick={login}>Login with Google</button>
+    <div className="flex items-center justify-center h-screen bg-gradient-to-br from-green-800 to-gray-900 text-white font-sans">
+      <div className="bg-white/10 backdrop-blur-md p-10 rounded-xl shadow-xl text-center">
+        <h1 className="text-3xl font-semibold mb-6">Welcome to NITC Connect</h1>
+        <p className="mb-4 text-sm text-gray-200">Please log in with your NITC Google account to continue</p>
+        <button
+          onClick={login}
+          className="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded text-white font-medium transition"
+        >
+          Login with Google
+        </button>
+      </div>
     </div>
   );
 };
 
 export default Login;
+
+
 
 
 

@@ -16,19 +16,7 @@ import Dashboard from "./pages/Dashboard";
 //import Home from "./pages/Home";
 import About from "./pages/About";
 
-// function App() {
-//   return (
-//     <Routes>
-//       <Route path="/" element={<Login />} />
-//       <Route path="/dashboard" element={<Dashboard />} />
-//       <Route path="/home" element={<Home />} />
-//       <Route path="/about" element={<About />} />
-//     </Routes>
-//   );
-// }
 
-// export default App;
-// In App.tsx
 import { useAuth } from "./hooks/useAuth";
 
 function App() {
