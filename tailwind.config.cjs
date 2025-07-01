@@ -20,6 +20,10 @@ module.exports = {
       colors: {
         // optional custom colors
       },
+      backgroundImage: {
+        'primary': 'linear-gradient(to right, #1a4040, #003333)',
+        'login-bg': "url('/src/assets/Login-bg.jpg')",
+      },
     },
   },
   plugins: [],
