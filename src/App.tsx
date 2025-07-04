@@ -19,12 +19,15 @@ import About from "./pages/About";
 
 import { useAuth } from "./hooks/useAuth";
 
+
 function App() {
   const { isLoggedIn } = useAuth();
 
   return (
     <Routes>
       <Route path="/" element={<Login />} />
+
+
       {isLoggedIn && <Route path="/dashboard" element={<Dashboard />} />}
       <Route path="/about" element={<About />} />
     </Routes>
